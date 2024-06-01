@@ -1,20 +1,25 @@
 body {
- 
-
-
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color:; /* This should have a color value */
+  color: black;
   padding: 70px;
   border-radius: 50px;
+  background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+  background-size: 600% 600%;
+  animation: gradientAnimation 15s ease infinite;
+}
+
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 a {
-  color:lightblue;
+  color: lightblue;
   text-decoration: none;
-  flex-direction:row;
+  flex-direction: row;
   width: 200px;
-  
 }
 
 h3 {
@@ -54,22 +59,23 @@ button:hover {
 }
 
 button:active {
-  background-color: #e0e0e0;
+  background-color: lightblue;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.08);
   transform: translateY(0);
 }
 
 .help-section {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 
 p {
   font-style: italic;
   margin: 0;
-  flex-dircetion:row;
-width: 200px; 
+  flex-direction: row;
+  width: 200px;
+  color: black;
 }
 
 .password-toggle-icon i {
@@ -81,13 +87,18 @@ width: 200px;
 }
 
 .password-toggle-icon i:hover {
-  color: blackblac
+  color: black;
 }
-a {
- flex-dircetion:row;
-}
+
 body {
   background-image: url("https://nonuandtricks.blogspot.com/2024/06/insta.html?m=1");
-  
 }
+
+po {
+  position: relative;
+  color: azure;
+  background-color: lightblue;
+  text-align:  center;
+}
+
 
