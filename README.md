@@ -1,2 +1,2 @@
-this is a basic Instagram login page
+this is a basic Instagram login page using html css js. 
 you can change colors according to you.. .... 
